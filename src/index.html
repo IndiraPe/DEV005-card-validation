@@ -6,9 +6,23 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>Holaaa</header>
-    <main></main>
-    <footer></footer>
+    <header class="encabezado">Validación de tarjeta uwu</header>
+    
+      <img class ="image" src="https://www.freeiconspng.com/thumbs/credit-card-icon-png/credit-card-icon-png-19.png">
+    <main>
+      <section class="formulario">
+        <form id="question">
+          <label for="numberCard">Número de tarjeta:</label>
+          <input id="numberCard" name="numberCard" type="text" placeholder="Ingrese su número sin espacios" size="40" maxlength="16" minlength="16" pattern="[0-9]+" autofocus required>
+        </form>
+        <button class="boton" id="btn">Enviar</button>
+        <div id="check1" class="check-1"><img class="img1" src="img/check_bueno.png"> Validación exitosa</div>
+        <div id="check2" class="check-2"><img class="img2" src="img/check_malo.png"> No es válido</div>
+        <button class="boton2" id="btn2" >Volver a intentar</button>
+      </section>
+    </main>
+    <footer class="pie">By: Estudiante de Laboratoria</footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
+
