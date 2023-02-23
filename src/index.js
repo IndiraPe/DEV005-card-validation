@@ -14,13 +14,12 @@ btn2.addEventListener('click',restart);
 function validation() {
   const numberCard = document.getElementById('numberCard').value;
   if(numberCard===''){
-    check1.innerHTML='Tienes que poner digitos en la caja'
+    check1.innerHTML='<img src="img/alert.png"> Tienes que escribir dígitos en la caja';
     check1.style.display = 'block';
-    // return null;
   }
   const final = validator.isValid(numberCard);
 
-  if (final % 10 === 0){
+  if (final === true){
     check1.style.display = 'block';
   } else {
     check2.style.display = 'block';

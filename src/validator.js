@@ -27,8 +27,13 @@ const validator = {
       sumNumberOdd = sumNumberOdd + arrayCardNormal;
     }
     //sumando los pares y los impares 
-    const sumTotal = sumNumberPair + sumNumberOdd;
-    return sumTotal;
+    let sumTotal = sumNumberPair + sumNumberOdd;
+
+    if (sumTotal % 10 === 0){
+      return sumTotal = true;
+    } else {
+      return sumTotal = false;
+    }
   }
 
 };
