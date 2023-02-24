@@ -34,6 +34,16 @@ const validator = {
     } else {
       return sumTotal = false;
     }
+  },
+  //funcion maskify (ocultar todo menos los últimos 4)
+  maskify: function (input) {
+    const inputToString = input.toString();
+    const inputToStringMask = inputToString.slice(0,-4);
+    const inputToStringMaskLength = "#".repeat(inputToStringMask.length);
+    const inputToStringMaskify = inputToStringMask.replace(inputToStringMask, inputToStringMaskLength);
+    const inputToStringShow = inputToString.slice(-4);
+    const inputfinal = inputToStringMaskify+inputToStringShow;
+    return inputfinal;
   }
 
 };
