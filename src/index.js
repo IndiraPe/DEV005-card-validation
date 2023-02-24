@@ -37,6 +37,6 @@ function validation() {
 function restart(){
   window.location.reload();
 }
-
+//god
 
 //console.log(validator);
