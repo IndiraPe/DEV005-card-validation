@@ -1,0 +1,113 @@
+html, body {
+    text-align: center;
+    background-image: url(https://www.todofondos.net/wp-content/uploads/1920x1280-Espacio-Aesthetic-Wallpaper-HD.jpg);
+    
+}
+
+.encabezado {
+    height: 50px;
+    width: 500px;
+    margin:auto;
+    background: rgb(255, 255, 255, 0.7);
+    border-radius: 20px;
+    border: 3px solid rgb(80, 22, 134);
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color:rgb(61, 15, 111);
+}
+
+main{
+    position: relative;
+}
+
+.image {
+    filter:invert();
+    padding-bottom: 3%;
+}
+
+.formulario {
+    width: 580px;
+    height: 110px;
+    padding-top: 30px;
+    background: rgb(255, 255, 255, 0.8);
+    border: 5px solid rgb(64, 10, 111);
+    border-radius: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    color:rgb(62, 18, 104);
+    text-align: center;
+    position: absolute;
+    top: 500%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.img1 {
+    width: 30px;
+    
+}
+
+.img2 {
+    width: 30px;
+    
+}
+
+.check-1 {
+    display: none;
+}
+
+.check-2 {
+    display: none;
+}
+
+.boton {
+    width: 100px;
+    height: 35px;
+    background: rgb(56, 14, 75);
+    border: 5px solid rgb(61, 21, 85);
+    border-radius: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: medium;
+    color: aliceblue;
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.boton2 {
+    width: 200px;
+    height: 35px;
+    background: rgb(56, 14, 75);
+    border: 5px solid rgb(61, 21, 85);
+    border-radius: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: medium;
+    color: aliceblue;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pie {
+    background: rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding-top: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-size:larger;
+    bottom: 0;
+    height: 30px;
+    width: 98%;
+    position: absolute;
+}
