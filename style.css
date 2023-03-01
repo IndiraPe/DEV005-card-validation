@@ -1,36 +1,36 @@
 html, body {
     text-align: center;
-    background-image: url(https://www.todofondos.net/wp-content/uploads/1920x1280-Espacio-Aesthetic-Wallpaper-HD.jpg);
-    
+    background-image: url(https://www.todofondos.net/wp-content/uploads/1920x1280-Espacio-Aesthetic-Wallpaper-HD.jpg);   
 }
 
-.encabezado {
+header {
     height: 50px;
     width: 500px;
-    margin:auto;
+    margin: auto;
     background: rgb(255, 255, 255, 0.7);
     border-radius: 20px;
     border: 3px solid rgb(80, 22, 134);
     font-size: xx-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     font-weight: bold;
     color:rgb(61, 15, 111);
+}
+
+.imgCard {
+    filter:invert();
+    padding-bottom: 5%;
 }
 
 main{
     position: relative;
 }
 
-.image {
-    filter:invert();
-    padding-bottom: 3%;
-}
-
-.formulario {
+main .formCard {
     width: 580px;
     height: 110px;
     padding-top: 30px;
+    padding-bottom: 40px;
     background: rgb(255, 255, 255, 0.8);
     border: 5px solid rgb(64, 10, 111);
     border-radius: 20px;
@@ -43,31 +43,27 @@ main{
     top: 500%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
-
 }
 
-.img1 {
+main .formCard .warning{
+    color: red;
+    font-size: 12px;
+    margin-left: 100px;
+}
+
+main .check-1, .check-2 {
+    display: none;
+}
+
+main div .img1, .img2 {
     width: 30px;
     
 }
 
-.img2 {
-    width: 30px;
-    
-}
-
-.check-1 {
-    display: none;
-}
-
-.check-2 {
-    display: none;
-}
-
-.boton {
-    width: 100px;
+main .button1, .button2 {
+    width: auto;
     height: 35px;
+    padding: 1px 15px;
     background: rgb(56, 14, 75);
     border: 5px solid rgb(61, 21, 85);
     border-radius: 20px;
@@ -82,25 +78,16 @@ main{
     transform: translate(-50%, -50%);
 }
 
-.boton2 {
-    width: 200px;
-    height: 35px;
-    background: rgb(56, 14, 75);
-    border: 5px solid rgb(61, 21, 85);
-    border-radius: 20px;
-    font-family:'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: medium;
-    color: aliceblue;
-    cursor: pointer;
+main .button2 {
     display: none;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
-.pie {
+.numberMaskify {
+    color: rgb(29, 156, 25);
+    font-size: 25px;
+}
+
+footer {
     background: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
     padding-top: 10px;
