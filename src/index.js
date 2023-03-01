@@ -14,7 +14,7 @@ btn2.addEventListener('click',restart);
 //function de validación
 function validation() {
   const numberCard = document.getElementById('numberCard').value;
-  const numberMaskify = document.querySelectorAll(".numberMaskify");
+  const numberMaskify = document.querySelector(".numberMaskify");
   //condicion para espacios vacios
   if(numberCard===''){
     check1.innerHTML='<img src="img/alert.png"> Tienes que escribir dígitos en la caja';
@@ -27,9 +27,10 @@ function validation() {
   } else {
     check2.style.display = 'block';
   }
+  //maskify
   const maskValue = validator.maskify(input.value);
-  numberMaskify.item(0).innerHTML = maskValue;
-  numberMaskify.item(1).innerHTML = maskValue;
+  numberMaskify.innerHTML = maskValue;
+  //acciones de estilo para el botón
   question.style.display = 'none';
   btn2.style.display = 'block';
 }
@@ -37,6 +38,4 @@ function validation() {
 function restart(){
   window.location.reload();
 }
-//god
-
 //console.log(validator);

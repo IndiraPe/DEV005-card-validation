@@ -10,7 +10,7 @@ La aplicación permite que no sea filtrada su información para mayor seguridad,
 Los pasos para validar tu tarjeta son sencillos:
 1. Verifique que su navegador sea confiable.
 2. Ingrese su "número de tarjeta" en el espacio con el mismo nombre, podrá notar que se muestra un ejemplo de como ingresarlo.
-3. Porfavor verifique que el espacio llenado no tenga letras, símbolos o espacios en blanco (Sólo números [0-9]), de no ser así, saldrá inválido automáticamente.
+3. Porfavor verifique que el espacio llenado no tenga letras, símbolos o espacios en blanco (Sólo números [0-9]), de no ser así, el resultado será inválido.
 4. Por último, presione en el botón "Enviar", para proceder con la validación.
 5. Si los datos ingresados son correctos y corresponden a una tarjeta válida, será anunciado con un mensaje positivo, de no ser así, tendrá la opción de comenzar de nuevo. Gracias.
 
